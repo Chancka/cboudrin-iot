@@ -19,7 +19,7 @@ kind: Deployment
 metadata:
   name: wilapp-deployment
   labels:
-    app: wilapp
+    app: prout
 spec:
   replicas: 1
   selector:
