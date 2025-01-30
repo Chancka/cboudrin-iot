@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: wilapp-service
+  name: wilapp
 spec:
   type: ClusterIP
   selector:
@@ -19,7 +19,7 @@ kind: Deployment
 metadata:
   name: wilapp-deployment
   labels:
-    app: prout
+    app: willapp
 spec:
   replicas: 1
   selector:
